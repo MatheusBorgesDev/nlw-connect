@@ -1,7 +1,9 @@
 export default function Home() {
+  const dark = true;
+
   return (
     <main>
-      <div>Hello world!</div>
+      <h1>Hello NLW Connect!</h1>
     </main>
   );
 }
