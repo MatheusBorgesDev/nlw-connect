@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 type IconButtonProps = ComponentProps<"button">;
 
 export function IconButton(props: IconButtonProps) {

@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 type InputRootProps = ComponentProps<"div"> & {
 	error?: boolean;
 };
