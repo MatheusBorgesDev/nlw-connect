@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.red-button {
+  @apply rounded-lg shadow-md bg-red-500 font-bold p-4 m-4 hover:bg-red-600 w-fit;
+}
