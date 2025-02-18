@@ -1,8 +1,8 @@
 import type { ComponentProps } from "react";
 
-interface InputRootProps extends ComponentProps<"div"> {
+type InputRootProps = ComponentProps<"div"> & {
 	error?: boolean;
-}
+};
 
 export function InputRoot({ error = false, ...props }: InputRootProps) {
 	return (
