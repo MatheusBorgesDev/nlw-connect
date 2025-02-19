@@ -1,10 +1,14 @@
 import Image from "next/image";
+
 import logo from "../../assets/Logo.svg";
+
 import { InviteLinkInput } from "./components/invite-link-input";
 import { Ranking } from "./components/ranking";
 import { Stats } from "./components/stats";
 
 export default function Invite() {
+	const inviteLink = "http://localhost:3000/as671ji297axfdjb8";
+
 	return (
 		<div className="min-h-dvh flex items-center flex-col justify-between gap-16 md:flex-row">
 			<div className="flex flex-col gap-10 w-full max-w-[550px]">
@@ -32,7 +36,7 @@ export default function Invite() {
 						</p>
 					</div>
 
-					<InviteLinkInput />
+					<InviteLinkInput inviteLink={inviteLink} />
 
 					<Stats />
 				</div>
